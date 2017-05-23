@@ -1,0 +1,49 @@
+.caja{
+	position: absolute;
+}
+#suelo {
+	width: 99%;
+	height: 100px;
+	background: green;
+	bottom: 0;
+}
+#casa{
+	width: 400px; 
+	height: 300px; 
+	background: #428bca;
+	bottom: 10%;
+	right: 15%
+}
+#techo{
+    width: 300px;
+    height: 150px;
+    right: 14.5%;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 150px solid brown;
+}
+
+#sol {
+    background: yellow;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    text-align: center;
+    -webkit-transform: rotate(20deg);
+       -moz-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+         -o-transform: rotate(20eg);
+}
+#sol:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 80px;
+    background: yellow;
+    -webkit-transform: rotate(135deg);
+       -moz-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+         -o-transform: rotate(135deg);
+}
